@@ -1,14 +1,19 @@
+h1 {
+  text-align: center;
+}
+
 .cuadrado {
   position: relative;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background: coral;
+  left: 43%;
 }
 
 .cuadradito {
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   background: yellow;
   top:0;
   left: 0;
@@ -16,9 +21,21 @@
 
 .cuadradoGrande {
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   background: purple;
   top: 25%;
   left: 25%;
+}
+
+#azul {
+  background: blue;
+}
+
+#negro {
+  background: black;
+}
+
+#verde {
+  background: green;
 }
